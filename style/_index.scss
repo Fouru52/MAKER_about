@@ -393,6 +393,10 @@ nav {
   text-align: center;
   display: none;
 
+  @media (max-width:1035px){
+    width: 70%;
+  }
+
   .Pop_img1{
     width: 220px;
 
@@ -407,14 +411,14 @@ nav {
   }
 
   .Pop_img2{
-    height: 350px;
+    width: 300px;
 
     @media (max-width:1035px){
       margin-bottom: 20px;
-      height: 300px;
+      width: 250px;
     }
     @media (max-width:376px){
-      height: 200px;
+      width: 200px;
     }
   }
 
@@ -425,6 +429,7 @@ nav {
       margin-bottom: 20px;
       height: 300px;
     }
+
     @media (max-width:376px){
       height: 200px;
     }
@@ -457,7 +462,7 @@ nav {
   align-items: center;
   column-gap: 50px;
 
-  @media (max-width:1035px){
+  @media (max-width:768px){
     flex-direction: column;
   }
 

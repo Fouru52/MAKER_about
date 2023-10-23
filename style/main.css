@@ -466,6 +466,11 @@ nav ul li a:hover:after {
   text-align: center;
   display: none;
 }
+@media (max-width: 1035px) {
+  .aboutPop {
+    width: 70%;
+  }
+}
 .aboutPop .Pop_img1 {
   width: 220px;
 }
@@ -481,17 +486,17 @@ nav ul li a:hover:after {
   }
 }
 .aboutPop .Pop_img2 {
-  height: 350px;
+  width: 300px;
 }
 @media (max-width: 1035px) {
   .aboutPop .Pop_img2 {
     margin-bottom: 20px;
-    height: 300px;
+    width: 250px;
   }
 }
 @media (max-width: 376px) {
   .aboutPop .Pop_img2 {
-    height: 200px;
+    width: 200px;
   }
 }
 .aboutPop .Pop_img3 {
@@ -534,7 +539,7 @@ nav ul li a:hover:after {
   -moz-column-gap: 50px;
        column-gap: 50px;
 }
-@media (max-width: 1035px) {
+@media (max-width: 768px) {
   .aboutPop_con {
     flex-direction: column;
   }
