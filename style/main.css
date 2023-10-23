@@ -593,7 +593,7 @@ nav ul li a:hover:after {
   color: #fff;
 }
 .intro_wrap p .blink {
-  animation: blink 1s infinite;
+  animation: blink 0.8s infinite;
 }
 @keyframes blink {
   to {
