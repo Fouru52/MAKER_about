@@ -210,6 +210,10 @@ nav {
     text-shadow: 0 0 10px rgba(255,255,255,0.4);
     font-size: clamp(36px,12vw,60px);
     font-family: 'PartialSansKR-Regular';
+
+    @media (max-width:768px){
+      font-size: clamp(30px,12vw,50px);
+    }
     
     @media (max-width:540px){
       font-size: clamp(26px,12vw,40px);
