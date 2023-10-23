@@ -135,6 +135,11 @@ nav ul li a:hover:after {
   width: 100%;
 }
 @media (max-width: 774px) {
+  nav ul li a:hover {
+    color: #4d83bf;
+  }
+}
+@media (max-width: 774px) {
   nav ul li a {
     padding: 20px;
     font-size: 20px;
@@ -581,7 +586,7 @@ nav ul li a:hover:after {
   background: none;
   font-family: "PartialSansKR-Regular";
   letter-spacing: 3.5px;
-  font-size: 1.8em;
+  font-size: 1.6em;
   text-align: center;
   font-weight: 600;
 }
